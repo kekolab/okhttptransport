@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group = 'com.github.kekolab'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.http-client:google-http-client:1.44.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+}
